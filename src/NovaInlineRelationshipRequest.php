@@ -19,7 +19,7 @@ class NovaInlineRelationshipRequest extends NovaRequest
         array $cookies = null,
         array $files = null,
         array $server = null
-    ) {
+    ): static {
         return parent::duplicate($query, $request, $attributes, $cookies, $files, $server);
     }
 
